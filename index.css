@@ -185,7 +185,7 @@
     font-size: 24px;
 }
 
-.card,.brain-text p {
+.card,.brain-text, .ready-think p {
     color: #627382;
 }
 
@@ -219,4 +219,19 @@
 
 .brain-text li{
      list-style-type: none; 
+}
+
+.ready-think{
+    background-color: #F7F6F2;
+    width: auto;
+    height: 299px;
+    
+    text-align: center;
+    margin:100px 50px 0 50px;
+    border-radius: 9px;
+    padding: 19px;
+}
+.ready-think h2{
+    font-weight: bold;
+    font-size: 40px;
 }
