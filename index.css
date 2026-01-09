@@ -167,7 +167,7 @@
 }
 
 .card {
-    width: 210px;
+    width: 220px;
     height: 190px;
     border: 2px solid black;
     display: flex;
@@ -180,11 +180,43 @@
 }
 
 .card h3 {
-    color: 001931;
+    color: #001931;
     font-weight: 600;
     font-size: 24px;
 }
 
-.card p {
+.card,.brain-text p {
     color: #627382;
+}
+
+
+.solution{
+    display: flex;
+    margin:100px 50px 0 50px;
+    gap: 50px;
+
+}
+.solution h3{
+    font-weight: bold;
+    font-size: 48px;
+}
+.brain {
+    height: 500px;
+    width: 500px;
+}
+
+.brain-text {
+    margin: auto 0;
+}
+
+.brain-text span {
+    color: #469165;
+}
+.brain-idea p{
+    color: black;
+    display: flex;
+}
+
+.brain-text li{
+     list-style-type: none; 
 }
